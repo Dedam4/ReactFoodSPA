@@ -15,7 +15,7 @@ export const Meal = (props) => {
                 
             </div>
             <div className="card-action">
-                <Link to={`/category/${idMeal}`} className="btn">Watch recipe</Link>
+                <Link to={`/meal/${idMeal}`} className="btn">Watch recipe</Link>
             </div>
         </div>
 

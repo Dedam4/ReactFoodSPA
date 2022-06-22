@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 
 import { About } from './pages/About'
 import { Home } from './pages/Home'
+import { Recipe } from './pages/Recipe';
 
 import { NotFound } from './pages/NotFound';
 import { Category } from './pages/Category';
@@ -19,6 +20,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/category/:name' element={<Category />} />
+            <Route path='/meal/:id' element={<Recipe />} />
 
             <Route path='*' element={<NotFound />} />
           </Routes>
