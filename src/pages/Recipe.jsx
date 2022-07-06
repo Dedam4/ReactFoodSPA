@@ -4,7 +4,7 @@ import { getMealById } from '../api'
 import { useEffect, useState } from 'react'
 
 import { Preloader } from '../components/Preloader';
-import { RecipeItem } from '../components/RecipeItem';
+import { RecipeItem } from '../components/Ricepe/RecipeItem';
 
 export const Recipe = () => {
     const { id } = useParams();

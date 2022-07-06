@@ -2,7 +2,7 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 
-import { About } from './pages/About'
+
 import { Home } from './pages/Home'
 import { Recipe } from './pages/Recipe';
 
@@ -18,7 +18,7 @@ function App() {
 
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
+          
             <Route path='/category/:name' element={<Category />} />
             <Route path='/meal/:id' element={<Recipe />} />
 
